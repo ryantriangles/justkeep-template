@@ -9,14 +9,16 @@ Sass for the first time.
 
 # Usage
 
-Call `justkeep-template` inside any folder to set it up.
+Call `justkeep-template` inside any folder to set up the files, and then `npm
+install` to prepare the tools that will render your partials and templates out.
 
 Write your static website inside `src/` as you normally would, but with EJS
 templates and Sass stylesheets. Prefix the filenames of EJS partials with `_`
 and write your Sass starting in `css/main.scss`.
 
-Run `gulp` from the root directory to build your site in the `build/` directory,
-rendering the EJS and Sass and copying all other files directly across.
+Run `gulp` from the root directory whenever you want to  build your site. It
+will be output to the `build/` directory, rendering the EJS and Sass and to
+everyday HTML and CSS, and copying all other files directly across.
 
 # License
 
