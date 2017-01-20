@@ -1,6 +1,6 @@
 {
   "name": "justkeep-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A quick pre-configured EJS + Sass template helper",
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "justkeep-template": "bin/bin.js"
   },
   "files": [
-    "copy"
+    "copy", "bin"
   ],
   "dependencies": {
     "ncp": "^2.0.0"
