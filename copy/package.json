@@ -1,0 +1,20 @@
+{
+  "name": "justkeep-template",
+  "version": "1.0.0",
+  "description": "A quick pre-configured EJS+Sass template helper",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "keywords": ["template"],
+  "author": "Ryan Plant <ryan@ryanplant.net>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "gulp": "^3.9.1",
+    "gulp-copy": "^1.0.0",
+    "gulp-custom-filter": "^0.2.5",
+    "gulp-ejs": "^2.3.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

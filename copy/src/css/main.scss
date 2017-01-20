@@ -1,0 +1,12 @@
+body {
+  ul {
+    list-style-type: lower-roman;
+
+    &:nth-child(2) {
+      color: red;
+    }
+  }
+
+  font-family: sans-serif;
+  font-size: 18pt;
+}
